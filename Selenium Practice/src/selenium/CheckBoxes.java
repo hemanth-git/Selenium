@@ -31,7 +31,7 @@ public class CheckBoxes extends SeliniumSystemProperties {
 				e.click();
 			}
 		}
-		System.out.println("-------------");
+		System.out.println("------------");
 		for(WebElement e: checkList){
 			System.out.println(e.isSelected()+" "+e.getAttribute("value"));
 		}
